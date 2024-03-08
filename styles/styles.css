@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 400;
+}
+
+/* Inicio navigation-bar */
+
+.header {
+    background-color: #fff;
+    color: #000;
+}
+
+#navbarNavDropdown {
+    background-color: #fff;
+    color: #000;
+}
+
+.header .navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.header .reserva-button {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    position: absolute;
+    left: 90%;
+    padding: 5px 18px;
+    border-radius: 30px;
+    transition: .2s background-color;
+}
+
+.header .reserva-button:hover {
+    text-decoration: none;
+    background-color: #009970;
+    border: none;
+    color: #fff;
+    padding: 5px 18px;
+    border-radius: 30px;
+}
+
+.header .reserva-button2 {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    width: 90px;
+    padding: 4px 10px;
+    border-radius: 30px;
+    transition: .2s background-color;
+}
+
+/* Fim da navigation bar */
+
+
+
+@media (max-width: 991px) {
+    .reserva-button {
+        display: none;
+    }
+}
+@media (min-width: 991px) {
+    .reserva-button2 {
+        display: none;
+    }
+}
