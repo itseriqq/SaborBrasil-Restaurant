@@ -25,13 +25,18 @@ body {
     font-size: 1.25rem;
 }
 
+.header .navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
+
 .header .reserva-button {
     text-decoration: none;
     color: #000;
     border: 1px solid #000;
     position: absolute;
     left: 90%;
-    padding: 5px 18px;
+    padding: 6px 18px;
     border-radius: 30px;
     transition: .2s background-color;
 }
@@ -41,19 +46,31 @@ body {
     background-color: #009970;
     border: none;
     color: #fff;
-    padding: 5px 18px;
+    padding: 6px 18px;
     border-radius: 30px;
 }
 
-.header .reserva-button2 {
-    text-decoration: none;
-    color: #000;
-    border: 1px solid #000;
-    width: 90px;
-    padding: 4px 10px;
-    border-radius: 30px;
-    transition: .2s background-color;
+.header .navbar-brand {
+    font-weight: 600;
+    padding-left: 30px;
 }
+
+.header .navbar-brand:hover {
+    color: #009970;
+    transition: .2s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #000;
+}
+
+.nav-link {
+    color: #66677;
+    position: relative;
+    font-weight: 500;
+}
+
+
 
 /* Fim da navigation bar */
 
@@ -63,9 +80,31 @@ body {
     .reserva-button {
         display: none;
     }
+    .header .navbar-brand {
+        font-weight: 600;
+        padding-left: 0px;
+    }
+    
 }
 @media (min-width: 991px) {
     .reserva-button2 {
         display: none;
+    }
+    .nav-link:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #009970;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+    
+    .nav-link:hover::before {
+        width: 100%;
+        visibility: visible;
     }
 }
