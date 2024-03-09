@@ -65,15 +65,50 @@ body {
 }
 
 .nav-link {
-    color: #66677;
+    color: #666777;
     position: relative;
     font-weight: 500;
 }
 
+/* Fim da nav bar */
 
 
-/* Fim da navigation bar */
+/* Inicio hero-section */
 
+.hero-section {
+    margin-top: 150px;
+}
+
+.hero-section h1 {
+    font-weight: 600;
+    color: #252525;
+}
+
+.hero-section h2 {
+    font-weight: 600;
+    color: #252525;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.hero-section h1 span {
+    color: #009970;
+}
+
+.hero-section p {
+    font-weight: 500;
+    margin-bottom: -3px;
+}
+
+.hero-section .img-principal {
+    margin-top: -60px;
+    margin-left: 50px;
+    width: 400px;
+}
+
+
+
+/* Fim hero-section */
 
 
 @media (max-width: 991px) {
