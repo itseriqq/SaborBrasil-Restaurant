@@ -100,15 +100,111 @@ body {
     margin-bottom: -3px;
 }
 
+.hero-section .txt-decorative {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6px;
+}
+
 .hero-section .img-principal {
-    margin-top: -60px;
+    margin-top: -80px;
     margin-left: 50px;
     width: 400px;
+}
+
+.hero-section .btn-reserva {
+    text-decoration: none;
+    color: white;
+    background-color: #009970;
+    border: none;
+    width: 120px;
+    margin-top: 20px;
+    padding: 10px 12px 10px 12px;
+    border-radius: 20px;
+}
+
+.hero-section .btn-reserva:hover {
+    text-decoration: none;
+    color: #009970;
+    background-color: #fff;
+    border: 1px solid #009970;
+    transition: .2s ease-in-out;
+    width: 120px;
+    margin-top: 20px;
+    padding: 10px 12px 10px 12px;
+    border-radius: 20px;
 }
 
 
 
 /* Fim hero-section */
+
+@media (max-width: 576px){
+    .hero-section .img-principal {
+        margin-top: 0;
+        margin-left: 50px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        margin-top: 50px;
+    }
+    .hero-section .row-central .titles, .div-imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero-section .div-imagem {
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+    
+    .hero-section .img-principal {
+        margin-top: 80px;
+        margin-left: 50px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-section .txt-decorative {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    .hero-section .btn-reserva {
+        text-decoration: none;
+        color: white;
+        background-color: #009970;
+        border: none;
+        width: 120px;
+        margin-top: 20px;
+        padding: 10px 12px 10px 12px;
+        border-radius: 20px;
+    }
+    
+    .hero-section .btn-reserva:hover {
+        text-decoration: none;
+        color: #009970;
+        background-color: #fff;
+        border: 1px solid #009970;
+        transition: .2s ease-in-out;
+        width: 120px;
+        margin-top: 20px;
+        padding: 10px 12px 10px 12px;
+        border-radius: 20px;
+    }
+    
+}
 
 
 @media (max-width: 991px) {
@@ -119,7 +215,11 @@ body {
         font-weight: 600;
         padding-left: 0px;
     }
-    
+    .hero-section .img-principal {
+        margin-top: 0px;
+        margin-left: 50px;
+        width: 350px;
+    }
 }
 @media (min-width: 991px) {
     .reserva-button2 {
