@@ -84,6 +84,11 @@ body {
     color: #252525;
 }
 
+.hero-section .separador {
+    width: 200px;
+    color: #009970;
+}
+
 .hero-section h2 {
     font-weight: 600;
     color: #252525;
@@ -100,18 +105,23 @@ body {
     margin-bottom: -3px;
 }
 
+.hero-section .row-central .titles {
+    border-right: 1px solid #009970;
+}
+
 .hero-section .txt-decorative {
     display: flex;
     align-items: start;
     flex-direction: column;
     justify-content: center;
     padding-left: 6px;
+    margin-top: 25px;
 }
 
 .hero-section .img-principal {
     margin-top: -80px;
     margin-left: 50px;
-    width: 400px;
+    width: 450px;
 }
 
 .hero-section .btn-reserva {
@@ -120,7 +130,7 @@ body {
     background-color: #009970;
     border: none;
     width: 120px;
-    margin-top: 20px;
+    margin-top: 60px;
     padding: 10px 12px 10px 12px;
     border-radius: 20px;
 }
@@ -132,7 +142,7 @@ body {
     border: 1px solid #009970;
     transition: .2s ease-in-out;
     width: 120px;
-    margin-top: 20px;
+    margin-top: 60px;
     padding: 10px 12px 10px 12px;
     border-radius: 20px;
 }
@@ -140,6 +150,24 @@ body {
 
 
 /* Fim hero-section */
+
+/* inicio cardapio */
+
+.citacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 0;
+    height: 160px;
+    background-color: #00997027;
+}
+
+.citacao .blockquote .highlight {
+    color: #009970;
+}
+
+/* fim cardapio */
 
 @media (max-width: 576px){
     .hero-section .img-principal {
@@ -149,9 +177,15 @@ body {
     }
 }
 
+
 @media (max-width: 768px) {
     .hero-section {
         margin-top: 50px;
+    }
+    .hero-section .row-central .titles {
+        border-right: none;
+        /* border-bottom: 1px dotted #009970; */
+        padding-bottom: 20px;
     }
     .hero-section .row-central .titles, .div-imagem {
         display: flex;
