@@ -168,6 +168,31 @@ body {
 
 /* fim cardapio */
 
+.cardapio .title-cardapio h3 {
+    color: #009970;
+    font-weight: 600;
+    border-bottom: 0.4px solid #000;
+    width: 155px;
+    padding-bottom: 6px;
+}
+
+.cardapio .cardapio-item {
+    background-color: #02d69d0e;
+    border-radius: 50px 10px 50px 10px;
+    padding: 10px 10px 10px 10px;
+    transition: .3s ease-in-out;
+    
+}
+
+.cardapio .cardapio-item:hover {
+    background-color: #00997027;
+    transition: all .3s ease-in-out;
+    -webkit-transform: translateY(-0.6rem);
+    transform: translateY(-0.6rem);
+    cursor: pointer;
+    box-shadow: 0 10px 10px -5px;
+}
+
 @media (max-width: 576px){
     .hero-section .img-principal {
         margin-top: 0;
