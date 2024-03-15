@@ -244,6 +244,68 @@ body {
     width: 100px;
 }
 
+.depoimentos {
+    width: 100%;
+    padding: 50px 20px;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.depoimentos i{
+    font-size: 90px;
+    color: #cccccc62;
+}
+
+.depoimentos .slide {
+    padding: 40px 60px;
+    cursor: grab;
+}
+
+.depoimentos .slide:active {
+    padding: 40px 60px;
+    cursor: grabbing;
+}
+
+.depoimentos p.depoi-txt {
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.slide .person {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.depoimentos .slide .person p.nome-person {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.depoimentos .slide .person p.func-person {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+.depoimentos .slide .person img {
+    width: 80px;
+    height: 80px;
+    margin-right: -15px;
+}
+
+.depoimentos .color-buttons {
+    color: #009970;
+}
+
+.depoimentos .swiper-pagination-bullet-active {
+    background-color: #009970; /* Cor dos botões ativos */
+}
+
 
 
 @media (max-width: 576px){
