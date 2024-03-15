@@ -171,27 +171,80 @@ body {
 .cardapio .title-cardapio h3 {
     color: #009970;
     font-weight: 600;
-    border-bottom: 0.4px solid #000;
-    width: 155px;
     padding-bottom: 6px;
 }
 
+.cardapio .img-cardapio{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+
+.cardapio .img-cardapio:hover{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    transition: all .3s ease-in-out;
+    -webkit-transform: translateY(-0.6rem);
+    transform: translateY(-0.6rem);
+}
+
+.cardapio .item {
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-top: 30px;
+}
+
+.cardapio .img-cardapio img{
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: none;;
+    border-radius: 100%;
+}
+
+
+.cardapio .separador {
+    width: 80px;
+    margin-top: -10px;
+    border-bottom: 1px solid #000;
+}
+
 .cardapio .cardapio-item {
-    background-color: #02d69d0e;
-    border-radius: 50px 10px 50px 10px;
+    border-radius: 20px;
     padding: 10px 10px 10px 10px;
     transition: .3s ease-in-out;
-    
+    background-color: #ffffff;
+    /* box-shadow: 0 10px 10px -5px; */
 }
 
 .cardapio .cardapio-item:hover {
-    background-color: #00997027;
     transition: all .3s ease-in-out;
     -webkit-transform: translateY(-0.6rem);
     transform: translateY(-0.6rem);
     cursor: pointer;
+    background-color: #f1f1f19c;
     box-shadow: 0 10px 10px -5px;
 }
+.cardapio .descricao-item {
+    font-weight: 500;
+}
+
+.cardapio .div-descricao {
+    border-radius: 20px;
+}
+
+.cardapio .preco-item {
+    font-weight: 300;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 0.5px solid #009970;
+    padding-bottom: 5px;
+    width: 100px;
+}
+
+
 
 @media (max-width: 576px){
     .hero-section .img-principal {
