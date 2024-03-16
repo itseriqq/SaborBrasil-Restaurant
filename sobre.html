@@ -48,7 +48,7 @@
                 <a class="nav-link mx-lg-2" href="contato.html">Contato</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-lg-2" href="#">Localização</a>
+                <a class="nav-link mx-lg-2" href="localizacao.html">Localização</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link mx-lg-2 reserva-button2" href="reservar.html">Reservar</a>
@@ -64,73 +64,101 @@
   <!-- Fim header -->
 
 
-<section class="sobre mt-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 titulo-sobre text-center mt-4">
-        <h3 class="txt-highlight">Sobre</h3>
+  <section class="sobre mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mt-3">
+          <h3 class="sobre-title">Sobre</h3>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="separador"></div>
       </div>
     </div>
-    <div class="row d-flex justify-content-center align-items-center">
-      <div class="separador"></div>
-    </div>
-    </div>
-</section>
+  </section>
 
-<div class="container">
-  <div class="row text-center">
-    <div class="col-md-6 mx-auto">
-      <div class="swiper-container itens-chefs">
-        <div class="swiper-wrapper slides">
-          <!-- Card 1 -->
-          <div class="swiper-slide slides-chefs">
+  <section class="sobre">
+    <div class="container">
+      <div class="row mt-4 d-flex align-items-center justify-content-center text-center">
+        <div class="col-6">
+          <span>A equipe com os melhores chefs, dedicados a criar experiências culinárias <span
+              class="txt-highlight">excepcionais</span>, inovadoras
+            e deliciosas para nossos clientes.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container chefs-container">
+    <div class="row mt-5">
+      <div class="col-12">
+        <h3 class="sobre-title-item mt-2">Chefs</h3>
+      </div>
+      <div class="row d-flex justify-content-start align-items-start">
+        <div class="separador"></div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-6 mx-auto">
+        <div class="swiper-container itens-chefs">
+          <div class="swiper-wrapper slides">
+            <!-- Card 1 -->
+            <div class="swiper-slide slides-chefs">
 
               <img src="source/images/chef-1.png" alt="Chef 1" class="img-fluid">
 
-            <div class="chef-info">
-              <h5>Chef Eric</h5>
-              <p>Chefe Executivo</p>
+              <div class="chef-info">
+                <h5>Chef Eric</h5>
+                <p>Chefe Executivo</p>
+              </div>
             </div>
+            <!-- Card 2 -->
+            <div class="swiper-slide slides-chefs">
+
+              <img src="source/images/chef-2.png" alt="Chef 2" class="img-fluid">
+
+              <div class="chef-info">
+                <h5>Chef Paola</h5>
+                <p>Chefe Executiva</p>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="swiper-slide slides-chefs">
+
+              <img src="source/images/chef-3.png" alt="Chef 3" class="img-fluid">
+
+              <div class="chef-info">
+                <h5>Chef Henrique</h5>
+                <p>Chefe Executivo</p>
+              </div>
+            </div>
+            <!-- Botões de navegação -->
           </div>
-          <!-- Card 2 -->
-          <div class="swiper-slide slides-chefs">
-
-            <img src="source/images/chef-2.png" alt="Chef 2" class="img-fluid">
-
-          <div class="chef-info">
-            <h5>Chef Paola</h5>
-            <p>Chefe Executiva</p>
+          <div class="carrossel-sobre">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
-        <!-- Card 3 -->
-        <div class="swiper-slide slides-chefs">
+      </div>
 
-          <img src="source/images/chef-3.png" alt="Chef 3" class="img-fluid">
 
-        <div class="chef-info">
-          <h5>Chef Henrique</h5>
-          <p>Chefe Executivo</p>
-        </div>
-      </div>
-        <!-- Botões de navegação -->
-      </div>
-      <div class="carrossel-sobre">
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-pagination"></div>
-      </div>
+<div class="container sobre-page mt-5">
+  <div class="row">
+    <div class="d-flex justify-content-center align-items-center">
+      <a type="button" href="reservar.html" class="btn-reserva text-center">Reservar</a>
     </div>
+  </div>
 </div>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    crossorigin="anonymous"></script>
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+      <script src="js/swiper-bundle.min.js"></script>
+      <script src="js/script.js"></script>
 </body>
 
 </html>
