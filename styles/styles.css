@@ -350,6 +350,22 @@ body {
 
 /* fim pagina de cardapio */
 
+/* inicio pagina sobre */
+
+
+.sobre .txt-highlight {
+    color: #009970;
+
+}
+
+.sobre .separador {
+    border: 1px solid #009970;
+    width: 100px;
+}
+
+
+/* fim pagina sobre */
+
 
 
 @media (max-width: 576px){
