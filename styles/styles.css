@@ -412,7 +412,27 @@ body {
 
 
 
-/* pagina reservar */
+/* fim pagina reservar */
+
+.contato .txt-highlight {
+    color: #009970;
+}
+
+.contato .separador {
+    border-right: 1px solid #000;
+}
+
+.contato .itens {
+
+    border-radius: 20px;
+    padding: 20px
+}
+
+/* inicio pagina contato */
+
+
+
+/* fim pagina contato */
 
 @media (max-width: 576px){
     .hero-section .img-principal {
@@ -494,6 +514,11 @@ body {
         margin-top: 20px;
         padding: 10px 12px 10px 12px;
         border-radius: 20px;
+    }
+
+    .contato .separador {
+        border: none;
+        margin: 0 !important;
     }
     
 }
