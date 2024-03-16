@@ -211,6 +211,12 @@ body {
     border-bottom: 1px solid #000;
 }
 
+.cardapio .separador-itens {
+    width: 176px;
+    margin-top: -10px;
+    border-bottom: 1px solid #000;
+}
+
 .cardapio .cardapio-item {
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
@@ -311,12 +317,59 @@ body {
 }
 
 
+/* inicio pagina de cardapio */
+
+.itens {
+    padding-top: 30px;
+}
+
+.reservar .btn-reserva {
+    text-decoration: none;
+    color: white;
+    background-color: #009970;
+    border: none;
+    width: 120px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding: 10px 12px 10px 12px;
+    border-radius: 20px;
+}
+
+.reservar .btn-reserva:hover {
+    text-decoration: none;
+    color: #009970;
+    background-color: #fff;
+    border: 1px solid #009970;
+    transition: .2s ease-in-out;
+    width: 120px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding: 10px 12px 10px 12px;
+    border-radius: 20px;
+}
+
+/* fim pagina de cardapio */
+
+
 
 @media (max-width: 576px){
     .hero-section .img-principal {
         margin-top: 0;
         margin-left: 50px;
         width: 200px;
+    }
+
+    .title-cardapio {
+        margin-left: 20px;      
+    }
+
+    .separador {
+        margin-left: 30px;
+    }
+
+    .separador-itens {
+        margin-left: 20px; 
+        width: 160px;
     }
 }
 
