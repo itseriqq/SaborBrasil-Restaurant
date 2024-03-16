@@ -364,6 +364,54 @@ body {
     border-bottom: 1px solid #000;
 }
 
+.itens-chefs {
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    height: 290px;
+}
+
+.slides-chefs img {
+    width: 190px;
+    height: 190px;
+}
+
+.slides-chefs .chef-info { 
+    background-color: #0099702c;
+    border-radius: 20px 0px;
+    width: 190px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carrossel-sobre .swiper-button-prev,
+.carrossel-sobre .swiper-button-next {
+  /* position: absolute; */
+  top: 50%;
+  /* transform: translateY(-50%); */
+  z-index: 10; /* Garante que os botões estejam acima dos slides */
+  width: 40px; /* Ajuste conforme necessário */
+  height: 30px; /* Ajuste conforme necessário */
+  color: #009970;
+  background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo dos botões */
+  border-radius: 50%; /* Botões redondos */
+  cursor: pointer; /* Cursor de apontar */
+}
+
+.carrossel-sobre .swiper-pagination {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; /* Garante que a paginação esteja acima dos slides */
+}
+
+.carrossel-sobre .swiper-pagination-bullet-active {
+    background-color: #009970; /* Cor dos botões ativos */
+}
 
 
 /* fim pagina sobre */
@@ -520,7 +568,6 @@ body {
         border: none;
         margin: 0 !important;
     }
-    
 }
 
 
